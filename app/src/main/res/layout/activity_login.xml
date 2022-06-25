@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/toolbar"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masuk dengan Akun Anda"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginStart="15dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat Email"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-light"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/emailInput"
+                android:inputType="textEmailAddress"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-light"
+                android:id="@+id/note_txt"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/passwordInput"
+                android:inputType="textPassword"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dengan menggunakan Layanan kami Anda setuju dengan"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Syarat dan Ketentuan"
+                    android:textColor="?colorPrimary"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/terms_btn"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" serta "
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kebijakan Privasi"
+                    android:textColor="?colorPrimary"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/privacy_btn"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" kami"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"/>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="Masuk"
+                android:id="@+id/loginBtn"
+                android:layout_height="60dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:id="@+id/resendOtpLayout"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Belum mendapat kode OTP?"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Kirim Ulang "
+                    android:textColor="?colorPrimary"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/resend_btn"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" (60)"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/timer_txt"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Butuh bantuan?"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" dapatkan bantuan"
+                    android:textColor="?colorPrimary"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/help_btn"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

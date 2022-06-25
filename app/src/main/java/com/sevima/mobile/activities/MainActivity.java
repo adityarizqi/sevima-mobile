@@ -1,8 +1,10 @@
-package com.sevima.mobile;
+package com.sevima.mobile.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.sevima.mobile.R;
 
 public class MainActivity extends AppCompatActivity {
 
