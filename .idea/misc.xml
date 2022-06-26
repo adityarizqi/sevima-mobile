@@ -5,8 +5,10 @@
       <map>
         <entry key="..\:/Users/Aditya Rizqi/AndroidStudioProjects/SevimaMobile/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/Aditya Rizqi/AndroidStudioProjects/SevimaMobile/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/Aditya Rizqi/AndroidStudioProjects/SevimaMobile/app/src/main/res/layout/fragment_course.xml" value="0.12047101449275362" />
+        <entry key="..\:/Users/Aditya Rizqi/AndroidStudioProjects/SevimaMobile/app/src/main/res/layout/course_view.xml" value="0.33" />
+        <entry key="..\:/Users/Aditya Rizqi/AndroidStudioProjects/SevimaMobile/app/src/main/res/layout/fragment_course.xml" value="0.18" />
         <entry key="..\:/Users/Aditya Rizqi/AndroidStudioProjects/SevimaMobile/app/src/main/res/layout/fragment_news.xml" value="0.12047101449275362" />
+        <entry key="..\:/Users/Aditya Rizqi/AndroidStudioProjects/SevimaMobile/app/src/main/res/layout/news_view.xml" value="0.12047101449275362" />
         <entry key="..\:/Users/Aditya Rizqi/AndroidStudioProjects/SevimaMobile/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2" />
       </map>
     </option>
